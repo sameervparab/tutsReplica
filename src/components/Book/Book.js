@@ -8,10 +8,10 @@ const Book = (props) => {
         alert(title)
     }
     return (
-			<div class='book'>
+			<div className='book'>
 				<img src={imgSrc} alt='' />
 				<h2>{title}</h2>
-				<div class='author'>By {author} </div>
+				<div className='author'>By {author} </div>
 				<p>Rs. {amount}</p>
 				<p>{children}</p>
 				<Button

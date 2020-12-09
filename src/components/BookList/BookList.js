@@ -8,7 +8,7 @@ const BookList = () => {
     return (
         <div className="book-list">
             {data.map((book) => { 
-            return <Book {...book}/>
+           return <Book {...book} key={uuidv4()}/>
             })}
         </div>
     )
